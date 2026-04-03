@@ -2,10 +2,12 @@
 
 I'm a passionate Software Developer from India 🇮🇳, currently pursuing BTech in Computer Science Engineering.  
 I love building things with Python, C++, JavaScript, and exploring React Native, Web Development, and Cloud platforms.  
+
 Constantly learning, experimenting, and turning ideas into code.
 
-
-
+<p align="center">
+  <img src="https://gh-trophy.cdnsoft.net/?username=sohansarkar07&theme=flat&no-bg=true&v=1.4" alt="trophies" />
+</p>
 
 ## 🔗 Connect with Me
 
@@ -78,8 +80,6 @@ Constantly learning, experimenting, and turning ideas into code.
 **Profile Views Counter**
 
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=sohansarkar07.sohansarkar07" />
-
-### :octocat: [sohansarkar07](https://github.com/sohansarkar07/sohansarkar07)
 
 ###
 
