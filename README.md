@@ -57,33 +57,14 @@ Constantly learning, experimenting, and turning ideas into code.
  
 </div>
 
-## GitHub Dashboard
 
 <div align="center">
 
-[![Contribution Stats](https://github-contribution-stats.vercel.app/api/?username=sohansarkar07)](https://github.com/LordDashMe/github-contribution-stats/)
+<img width="800" src="github-metrics.svg" alt="GitHub Metrics" />
 
 </div>
 
-<div align="center">
-	
-![](http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sohansarkar07&theme=transparent)
-
-![](http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sohansarkar07&theme=transparent&utcOffset=5.5) ![](http://github-profile-summary-cards.vercel.app/api/cards/stats?username=sohansarkar07&theme=transparent)
-
-
-</div>
-
-<div align="center">
-
-[![GitHub Streak](https://streak-stats.demolab.com?user=sohansarkar07&theme=transparent&hide_border=true)](https://git.io/streak-stats)
-
->**These statistics are presented in UTC time, which may not correspond to my local time. Contributions may be a few hours out of date.*
-
-<img width=390 src="https://github-readme-stats.vercel.app/api?username=sohansarkar07&count_private=true&show_icons=true&theme=react&rank_icon=github&border_radius=10" alt="readme stats" />
-<img width=325 align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=sohansarkar07&hide=HTML&langs_count=8&layout=compact&theme=react&border_radius=10&size_weight=0.5&count_weight=0.5&exclude_repo=github-readme-stats" alt="top langs" />
-
-</div>
+## Tech Stack & Language Activity
 
 ![](./profile-3d-contrib/profile-custom-gitblock.svg)
 >**The language charts are based on recent commits.*
@@ -106,13 +87,6 @@ Constantly learning, experimenting, and turning ideas into code.
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/sohansarkar07/sohansarkar07/raw/output-pacman/pacman-contribution-graph.svg">
   <img alt="pacman contribution graph" src="https://github.com/sohansarkar07/sohansarkar07/raw/output-pacman/pacman-contribution-graph.svg">
 </picture>
-
-
-<details><summary>Click to Expand Summary Metrics</summary>
-  <p align="center">
-    <a href="#" target="blank"><img align="center" src="github-metrics.svg" /></a>
-  </p>
-</details>
 
 
 </div>

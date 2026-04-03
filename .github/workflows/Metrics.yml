@@ -33,7 +33,7 @@ jobs:
           config_timezone: Asia/Kolkata
           plugin_followup: yes
           plugin_followup_archived: yes
-          plugin_followup_sections: repositories
+          plugin_followup_sections: repositories, user
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
