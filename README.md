@@ -6,10 +6,6 @@ Constantly learning, experimenting, and turning ideas into code.
 
 
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=sohansarkar07&theme=flat&no-bg=true&margin-w=15&v=1" alt="trophies" />
-</p>
-
 
 ## 🔗 Connect with Me
 
@@ -60,15 +56,13 @@ Constantly learning, experimenting, and turning ideas into code.
 
 
 
+
 <div align="center">
 
 <img width="800" src="github-metrics.svg" alt="GitHub Metrics" />
 
-<br/>
-
-<img src="https://github-readme-stats.vercel.app/api/achievements?username=sohansarkar07&theme=dracula&hide_border=true&icon_color=07cfe9&v=1" alt="GitHub Achievements" />
-
 </div>
+
 
 
 ## Tech Stack & Language Activity
