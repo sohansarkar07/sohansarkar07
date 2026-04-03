@@ -34,6 +34,12 @@ Constantly learning, experimenting, and turning ideas into code.
 </p>
 
 
+<div align="center">
+
+<img width="800" src="github-metrics.svg" alt="GitHub Metrics" />
+
+</div>
+
 
 
 ## GitHub Dashboard
