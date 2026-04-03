@@ -74,7 +74,8 @@ jobs:
 
           plugin_achievements: yes
           plugin_achievements_display: detailed
-          plugin_achievements_threshold: C
+          plugin_achievements_threshold: B
+          plugin_achievements_limit: 10
           plugin_notable: no
           plugin_stars: yes
           plugin_stars_limit: 4
