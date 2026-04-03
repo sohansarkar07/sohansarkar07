@@ -107,25 +107,8 @@ Constantly learning, experimenting, and turning ideas into code.
   <img alt="pacman contribution graph" src="https://github.com/sohansarkar07/sohansarkar07/raw/output-pacman/pacman-contribution-graph.svg">
 </picture>
 
-###
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="images/breakout-dark.svg"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="images/breakout-light.svg"
-  />
-  <img alt="Breakout Game" src="images/breakout-light.svg" />
-</picture>
-
-###
-
-## GitHub Summary Metrics Card
-
-<details><summary>Click to Expand</summary>
+<details><summary>Click to Expand Summary Metrics</summary>
   <p align="center">
     <a href="#" target="blank"><img align="center" src="github-metrics.svg" /></a>
   </p>
