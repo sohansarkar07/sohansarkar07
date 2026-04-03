@@ -4,11 +4,6 @@ I'm a passionate Software Developer from India 🇮🇳, currently pursuing BTec
 I love building things with Python, C++, JavaScript, and exploring React Native, Web Development, and Cloud platforms.  
 Constantly learning, experimenting, and turning ideas into code.
 
-<div align="center">
-	
-[![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=catppuccin_mocha&quote=Talk%20is%20cheap.%20Show%20me%20the%20code.&author=Linus%20Torvalds)](https://en.wikipedia.org/wiki/Linus_Torvalds) [![Readme Quotes](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=catppuccin_mocha&quote=Be%20curious.%20Read%20widely.%20Try%20new%20things.%20What%20people%20call%20intelligence%20just%20boils%20down%20to%20curiosity.&author=Aaron%20Swartz)](https://www.aaronsw.com/)
-
-</div>
 
 ## 🔗 Connect with Me
 
