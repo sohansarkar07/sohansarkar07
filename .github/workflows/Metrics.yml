@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@master
         with:
           # Your GitHub token
           # The following scopes are required:
@@ -72,7 +72,8 @@ jobs:
           plugin_reactions_limit_issues: 100
 
 
-          plugin_achievements: no
+          plugin_achievements: yes
+          plugin_achievements_display: detailed
           plugin_stars: yes
           plugin_stars_limit: 4
           plugin_topics: yes
