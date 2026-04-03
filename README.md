@@ -18,6 +18,12 @@ I'm a driven individual focused on building AI-powered products and turning idea
   <a href="https://linkedin.com/in/sohan-sarkar-505014386" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
   </a>
+  <a href="https://x.com/Sohansa94641896" target="_blank">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white" target="_blank" />
+  </a>
+  <a href="https://t.me/Sohan_Sarkar07" target="_blank">
+    <img src="https://img.shields.io/badge/Telegram-26A6E1?style=for-the-badge&logo=telegram&logoColor=white" target="_blank" />
+  </a>
   <a href="https://sohan-dev-1.vercel.app/" target="_blank">
      <img src="https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white" target="_blank" />
   </a>
