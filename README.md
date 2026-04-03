@@ -1,9 +1,12 @@
 # About Me
 
-I'm a passionate Software Developer from India 🇮🇳, currently pursuing BTech in Computer Science Engineering.  
-I love building things with Python, C++, JavaScript, and exploring React Native, Web Development, and Cloud platforms.  
+I'm a driven individual focused on building AI-powered products and turning ideas into reality.
 
-Constantly learning, experimenting, and turning ideas into code.
+Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.
+
+Also curious about design and constantly exploring ways to create better user experiences.
+
+Always learning, building, and moving forward.
 
 <p align="center">
   <img src="https://gh-trophy.cdnsoft.net/?username=sohansarkar07&theme=flat&no-bg=true&v=1.4" alt="trophies" />
