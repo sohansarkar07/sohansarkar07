@@ -1,8 +1,16 @@
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=sohansarkar07.sohansarkar07" />
+
 <h1 align="center">
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Sohan+Sarkar!;" />
 </h1>
 
-I'm a driven individual focused on building AI-powered products and turning ideas into reality.Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.Also curious about design and constantly exploring ways to create better user experiences.Always learning, building, and moving forward.
+I'm a driven individual focused on building AI-powered products and turning ideas into reality.
+
+Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.
+
+Also curious about design and constantly exploring ways to create better user experiences.
+
+Always learning, building, and moving forward.
 
 <p align="center">
   <img src="https://gh-trophy.cdnsoft.net/?username=sohansarkar07&theme=flat&no-bg=true&v=1.4" alt="trophies" />
@@ -82,11 +90,6 @@ I'm a driven individual focused on building AI-powered products and turning idea
 
 <div align="center">
 
-**Profile Views Counter**
-
-<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=sohansarkar07.sohansarkar07" />
-
-###
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/sohansarkar07/sohansarkar07/raw/output-pacman/pacman-contribution-graph-dark.svg">
