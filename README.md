@@ -36,32 +36,38 @@ Constantly learning, experimenting, and turning ideas into code.
 
 
 
+## GitHub Dashboard
 
 <div align="center">
-
-<img width="800" src="github-metrics.svg" alt="GitHub Metrics" />
-
+  <img src="https://github-contribution-stats.vercel.app/api/?username=sohansarkar07&theme=light" alt="Contribution Stats" />
 </div>
 
-
-
-## Tech Stack & Language Activity
+<div align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sohansarkar07&theme=transparent" alt="Profile Details" />
+</div>
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sohansarkar07&show_icons=true&theme=default&custom_title=Contribution%20Stats" alt="Contribution Stats" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sohansarkar07&theme=transparent&utcOffset=5.5" alt="Productive Time" /> <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=sohansarkar07&theme=transparent" alt="Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohansarkar07&theme=transparent&hide_border=true" alt="GitHub Streak" />
 </div>
 
 <br/>
 
-![](./profile-3d-contrib/profile-custom-gitblock.svg)
->**The language charts are based on recent commits.*
-
-[![Sohan Sarkar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sohansarkar07&theme=&github-compact&bg_color=none&color=808080&line=07cfe9&point=07cfe9&area=true&area_color=07cfe9&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+## Language Activity
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohansarkar07&theme=dark&hide_border=true" alt="GitHub Streak" />
+  <img src="./profile-3d-contrib/profile-custom-gitblock.svg" />
 </div>
+<p align="center"><em>*The language charts are based on recent commits.</em></p>
 
+<div align="center">
+  <a href="https://github.com/ashutosh00710/github-readme-activity-graph">
+    <img src="https://github-readme-activity-graph.vercel.app/graph?username=sohansarkar07&theme=&github-compact&bg_color=none&color=808080&line=07cfe9&point=07cfe9&area=true&area_color=07cfe9&hide_border=true" alt="Sohan Sarkar's github activity graph" />
+  </a>
+</div>
 
 <div align="center">
 
