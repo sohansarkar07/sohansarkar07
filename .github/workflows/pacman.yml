@@ -18,16 +18,27 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Checkout repo
+        uses: actions/checkout@v3
+
       - name: generate pacman-contribution-graph.svg
         uses: abozanona/pacman-contribution-graph@main
         with:
           github_user_name: ${{ github.repository_owner }}
 
+      - name: ensure dist directory and move SVG
+        run: |
+          mkdir -p dist
+          # Move the generated file into the dist directory for pushing
+          [ -f pacman-contribution-graph.svg ] && mv pacman-contribution-graph.svg dist/
+          # Also check for dark mode if generated
+          [ -f pacman-contribution-graph-dark.svg ] && mv pacman-contribution-graph-dark.svg dist/ || true
 
-      - name: push pacman-contribution-graph.svg to the output branch
+      - name: push pacman-contribution-graph.svg to the output-pacman branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
-          target_branch: output
+          # Use a separate branch to avoid conflicts with the snake animation
+          target_branch: output-pacman
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
