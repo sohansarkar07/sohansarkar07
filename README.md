@@ -47,10 +47,20 @@ Constantly learning, experimenting, and turning ideas into code.
 
 ## Tech Stack & Language Activity
 
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=sohansarkar07&show_icons=true&theme=default&custom_title=Contribution%20Stats" alt="Contribution Stats" />
+</div>
+
+<br/>
+
 ![](./profile-3d-contrib/profile-custom-gitblock.svg)
 >**The language charts are based on recent commits.*
 
 [![Sohan Sarkar's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=sohansarkar07&theme=&github-compact&bg_color=none&color=808080&line=07cfe9&point=07cfe9&area=true&area_color=07cfe9&hide_border=true)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=sohansarkar07&theme=dark&hide_border=true" alt="GitHub Streak" />
+</div>
 
 
 <div align="center">
