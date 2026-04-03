@@ -72,9 +72,7 @@ jobs:
           plugin_reactions_limit_issues: 100
 
 
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_notable: no
+          plugin_achievements: no
           plugin_stars: yes
           plugin_stars_limit: 4
           plugin_topics: yes
