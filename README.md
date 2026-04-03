@@ -1,4 +1,6 @@
-# About Me
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Sohan+Sarkar!;" />
+</h1>
 
 I'm a driven individual focused on building AI-powered products and turning ideas into reality.
 
