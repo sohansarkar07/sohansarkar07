@@ -5,11 +5,11 @@ I love building things with Python, C++, JavaScript, and exploring React Native,
 Constantly learning, experimenting, and turning ideas into code.
 
 
-<div align="center">
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=sohansarkar07&theme=flat&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=sohansarkar07&theme=flat&no-bg=true&margin-w=15&v=1" alt="trophies" />
+</p>
 
-</div>
 
 ## 🔗 Connect with Me
 
@@ -59,13 +59,17 @@ Constantly learning, experimenting, and turning ideas into code.
 </div>
 
 
+
 <div align="center">
 
 <img width="800" src="github-metrics.svg" alt="GitHub Metrics" />
 
-[![GitHub Achievements](https://github-readme-stats.vercel.app/api/achievements?username=sohansarkar07&theme=react&hide_border=true&icon_color=07cfe9)](https://github.com/anuraghazra/github-readme-stats)
+<br/>
+
+<img src="https://github-readme-stats.vercel.app/api/achievements?username=sohansarkar07&theme=dracula&hide_border=true&icon_color=07cfe9&v=1" alt="GitHub Achievements" />
 
 </div>
+
 
 ## Tech Stack & Language Activity
 
