@@ -29,7 +29,7 @@ Constantly learning, experimenting, and turning ideas into code.
 
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=py,cpp,c,js,html,css,react,flask,bootstrap,vscode,git,github,figma,gcp,windows,linux,streamlit,mongodb,firebase,nodejs,ethereum,leaflet,vercel&perline=12" />
+    <img src="https://skillicons.dev/icons?i=py,cpp,c,js,html,css,react,flask,bootstrap,vscode,git,github,figma,gcp,windows,linux,mongodb,firebase,nodejs,vercel,solidity,rust&perline=11" />
   </a>
 </p>
 
