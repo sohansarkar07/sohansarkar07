@@ -40,4 +40,5 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git add profile-scan.svg
           git diff --cached --quiet || git commit -m "chore: update profile scan SVG [skip ci]"
+          git pull --rebase origin main
           git push
