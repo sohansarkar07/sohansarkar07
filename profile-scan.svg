@@ -27,28 +27,30 @@
   <circle cx="68" cy="28" r="5" fill="#27c93f" opacity="0.9"/>
   <text x="460" y="33" class="title" text-anchor="middle">PROFILE_SCAN.EXE</text>
   <text x="20" y="66" class="header">$ ./profile-scan --target sohansarkar07 --live</text>
-  <text x="20" y="84" class="header">SCANNING... STATUS: ONLINE | 2026-08-08 15:35 UTC</text>
+  <text x="20" y="84" class="header">SCANNING... STATUS: ONLINE | 2026-08-08 15:42 UTC</text>
   <line x1="8" y1="94" x2="912" y2="94" class="sep"/>
   <line x1="435" y1="94" x2="435" y2="502" class="sep"/>
   <text x="28" y="114" class="label">VISUAL.MAP</text>
-  <text x="28" y="130" class="ascii">         ;,  .,::;;,,..   </text>
-    <text x="28" y="150" class="ascii">      ,:...  .:|jfj)(|?*:,</text>
-    <text x="28" y="170" class="ascii">  ,,.;,,        .;+*?**/|/</text>
-    <text x="28" y="190" class="ascii">   *;              ,:+*/(j</text>
-    <text x="28" y="210" class="ascii"> ,*?j?             ;*/)txn</text>
-    <text x="28" y="230" class="ascii">.*:*)(, /  dn(    .*) xuah</text>
-    <text x="28" y="250" class="ascii">+..)),..J@@@0a*  :j  ah   </text>
-    <text x="28" y="270" class="ascii">:; )t)tfbhfx |,  *z h p wm</text>
-    <text x="28" y="290" class="ascii">.*/|+?x  Chu /   *  kd OQQ</text>
-    <text x="28" y="310" class="ascii">.(/+(nuaQB%88   .juk w 08&amp;</text>
-    <text x="28" y="330" class="ascii">(()*nnu k@$$ ) ..j kpppL8&amp;</text>
-    <text x="28" y="350" class="ascii">*,?**tah Z@  /  ,   wb JJ8</text>
-    <text x="28" y="370" class="ascii">..()/fnx 08@#a,:    wwm08$</text>
-    <text x="28" y="390" class="ascii">.,/?jtf ?%Bwb .|    0QL&amp;@@</text>
-    <text x="28" y="410" class="ascii"> ,;.,*,  ?  x    +f ak  mZ</text>
-    <text x="28" y="430" class="ascii">            ,      :)  akd</text>
-    <text x="28" y="450" class="ascii">                     ,:*/(</text>
-    <text x="28" y="470" class="ascii">                          </text>
+  <text x="28" y="130" class="ascii">#@&amp;%**+++==;;;=====++*%%&amp;@@</text>
+    <text x="28" y="150" class="ascii">@&amp;%%*+==;;:;=;::-:;;;=++*%&amp;&amp;</text>
+    <text x="28" y="170" class="ascii">&amp;%*++=;::+&amp;@##@&amp;+:-:::;=+*%%</text>
+    <text x="28" y="190" class="ascii">%*+=;;-;&amp;########@+`--:;;=+*</text>
+    <text x="28" y="210" class="ascii">*+=;:-;@#####@#####+.`--:;=+</text>
+    <text x="28" y="230" class="ascii">+=;:--&amp;############&amp;..``-:;=</text>
+    <text x="28" y="250" class="ascii">=;:-`.+###@*%%%@###@. ..`-:;</text>
+    <text x="28" y="270" class="ascii">;:-``.-#@:   .`+@##%    .`-:</text>
+    <text x="28" y="290" class="ascii">;:-`.. &amp;*      :@##:    .`-:</text>
+    <text x="28" y="310" class="ascii">:-`..  -+-;%+:*&amp;#@#;     .`-</text>
+    <text x="28" y="330" class="ascii">:-`.    :-.=;-%###@-     .`-</text>
+    <text x="28" y="350" class="ascii">:-`.    `.. ...@@@@-      .`</text>
+    <text x="28" y="370" class="ascii">:-`.    `.    `&amp;#@#-      .`</text>
+    <text x="28" y="390" class="ascii">:-`.    .:   `+@@#@       .`</text>
+    <text x="28" y="410" class="ascii">:-`.     :. `.-@##;       .-</text>
+    <text x="28" y="430" class="ascii">:-`.    -=.   .&amp;#+       .`-</text>
+    <text x="28" y="450" class="ascii">:-``.   @* .`.`&amp;##;      .`-</text>
+    <text x="28" y="470" class="ascii">;:`..`-%##=..:*####&amp;    .`-:</text>
+    <text x="28" y="490" class="ascii">==+*&amp;###@##@*+&amp;#####;.  .`-:</text>
+    <text x="28" y="510" class="ascii">@##########@#########@*=:-:;</text>
     
   <text x="450" y="114" class="label">SYSTEM.INFO</text>
   <text x="630" y="114" class="label">SUBJECT</text>
