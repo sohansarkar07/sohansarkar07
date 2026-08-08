@@ -33,9 +33,12 @@ jobs:
         run: python .github/scripts/generate_profile_scan.py
 
       - name: Commit and push SVG
+        env:
+          PUSH_TOKEN: ${{ secrets.METRICS_TOKEN }}
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git remote set-url origin https://x-access-token:${PUSH_TOKEN}@github.com/sohansarkar07/sohansarkar07.git
           git add profile-scan.svg
           git diff --cached --quiet || git commit -m "chore: update profile scan SVG [skip ci]"
           git push
