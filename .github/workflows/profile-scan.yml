@@ -1,0 +1,41 @@
+name: Profile Scan
+
+on:
+  schedule:
+    - cron: "0 18 * * *"   # Daily at 18:00 UTC (11:30 PM IST)
+  workflow_dispatch:
+  push:
+    branches: ["main", "master"]
+    paths:
+      - ".github/scripts/generate_profile_scan.py"
+
+jobs:
+  generate-profile-scan:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate Profile Scan SVG
+        env:
+          METRICS_TOKEN: ${{ secrets.METRICS_TOKEN }}
+        run: python .github/scripts/generate_profile_scan.py
+
+      - name: Commit and push SVG
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile-scan.svg
+          git diff --cached --quiet || git commit -m "chore: update profile scan SVG [skip ci]"
+          git push
