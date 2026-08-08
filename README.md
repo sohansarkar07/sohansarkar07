@@ -4,6 +4,10 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Sohan+Sarkar!;" />
 </h1>
 
+<div align="center">
+  <img src="profile-scan.svg" alt="Profile Scan" width="100%" />
+</div>
+
 I'm a driven individual focused on building AI-powered products and turning ideas into reality.Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.Also curious about design and constantly exploring ways to create better user experiences.Always learning, building, and moving forward.
 
 <p align="center">
