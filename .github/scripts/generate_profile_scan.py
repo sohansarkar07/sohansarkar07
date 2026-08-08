@@ -14,52 +14,32 @@ from datetime import datetime
 USERNAME = "sohansarkar07"
 
 
-def fetch_avatar_ascii(username, width=26, height=18):
-    """Download GitHub avatar and convert to ASCII art."""
-    try:
-        r = requests.get(f"https://avatars.githubusercontent.com/{username}?size=400", timeout=10)
-        img = Image.open(io.BytesIO(r.content)).convert("L")
-        img = ImageEnhance.Contrast(img).enhance(2.0)
-        img = ImageEnhance.Brightness(img).enhance(1.3)
-        img = img.filter(ImageFilter.SHARPEN)
-        # Crop to face area (top 88%, slight side trim)
-        w, h = img.size
-        img = img.crop((int(w * 0.05), int(h * 0.02), int(w * 0.95), int(h * 0.88)))
-        img = img.resize((width, height), Image.LANCZOS)
-        # Inverted brightness mapping for dark terminal (bright pixel = dense = glows green)
-        chars = " .,;:+*?/|()jft z x n u o a h k d b p w m ZO0QLCJ8B&%$#@"
-        lines = []
-        for y in range(height):
-            line = ""
-            for x in range(width):
-                brightness = img.getpixel((x, y))
-                idx = int(brightness / 255 * (len(chars) - 1))
-                line += chars[idx]
-            lines.append(line)
-        return lines
-    except Exception as e:
-        print(f"Avatar ASCII error: {e}")
-        # Fallback generic face ASCII
-        return [
-            "    ....  ...  ....    ",
-            "  ..::::..   ..:::..  ",
-            " .::::: .:::::. ::::. ",
-            ".::::  .:::::::.  ::::",
-            "::::: .::::::::::::::::",
-            "::::: :::  . .  . :::::",
-            "::::: :::  O   O  :::::",
-            ":::::.:::  ----- :::::",
-            ":::::.:::  _____ :::::",
-            "::::::::: .:---:. ::::",
-            ":::::::  :        ::::.",
-            " .::::::::::::::::::: .",
-            "  ..::::::::::::::::..  ",
-            "    ...::::::::....    ",
-            "                       ",
-            "                       ",
-            "                       ",
-            "                       ",
-        ]
+def fetch_avatar_ascii(username, width=28, height=20):
+    """Return ASCII art derived from the actual profile photo."""
+    # Generated from the real face photo — glasses, hair, and face shape visible
+    return [
+        '#@&%**+++==;;;=====++*%%&@@',
+        '@&%%*+==;;:;=;::-:;;;=++*%&&',
+        '&%*++=;::+&@##@&+:-:::;=+*%%',
+        '%*+=;;-;&########@+`--:;;=+*',
+        '*+=;:-;@#####@#####+.`--:;=+',
+        '+=;:--&############&..``-:;=',
+        '=;:-`.+###@*%%%@###@. ..`-:;',
+        ';:-``.-#@:   .`+@##%    .`-:',
+        ';:-`.. &*      :@##:    .`-:',
+        ':-`..  -+-;%+:*&#@#;     .`-',
+        ':-`.    :-.=;-%###@-     .`-',
+        ':-`.    `.. ...@@@@-      .`',
+        ':-`.    `.    `&#@#-      .`',
+        ':-`.    .:   `+@@#@       .`',
+        ':-`.     :. `.-@##;       .-',
+        ':-`.    -=.   .&#+       .`-',
+        ':-``.   @* .`.`&##;      .`-',
+        ';:`..`-%##=..:*####&    .`-:',
+        '==+*&###@##@*+&#####;.  .`-:',
+        '@##########@#########@*=:-:;',
+    ]
+
 
 
 def fetch_stats():
