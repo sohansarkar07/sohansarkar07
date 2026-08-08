@@ -14,30 +14,31 @@ from datetime import datetime
 USERNAME = "sohansarkar07"
 
 
-def fetch_avatar_ascii(username, width=28, height=20):
-    """Return ASCII art derived from the actual profile photo."""
-    # Generated from the real face photo — glasses, hair, and face shape visible
+def fetch_avatar_ascii(username, width=44, height=22):
+    """Return ASCII art derived from actual face photo — clean 44x22 high-res."""
     return [
-        '#@&%**+++==;;;=====++*%%&@@',
-        '@&%%*+==;;:;=;::-:;;;=++*%&&',
-        '&%*++=;::+&@##@&+:-:::;=+*%%',
-        '%*+=;;-;&########@+`--:;;=+*',
-        '*+=;:-;@#####@#####+.`--:;=+',
-        '+=;:--&############&..``-:;=',
-        '=;:-`.+###@*%%%@###@. ..`-:;',
-        ';:-``.-#@:   .`+@##%    .`-:',
-        ';:-`.. &*      :@##:    .`-:',
-        ':-`..  -+-;%+:*&#@#;     .`-',
-        ':-`.    :-.=;-%###@-     .`-',
-        ':-`.    `.. ...@@@@-      .`',
-        ':-`.    `.    `&#@#-      .`',
-        ':-`.    .:   `+@@#@       .`',
-        ':-`.     :. `.-@##;       .-',
-        ':-`.    -=.   .&#+       .`-',
-        ':-``.   @* .`.`&##;      .`-',
-        ';:`..`-%##=..:*####&    .`-:',
-        '==+*&###@##@*+&#####;.  .`-:',
-        '@##########@#########@*=:-:;',
+        '@@#####++++++++.................++++++#####@',
+        '#####+++++......  ...      ........+++++####',
+        '###++++.....   .++#####++.       .....++++##',
+        '##+++.....   +#@@@#@@@@@@@#+.       ....+++#',
+        '++++...    +#@@###########@@@#.       ....++',
+        '++....   .+@@############@###@#         ...+',
+        '+...     .@####@@@@@@@@@@@@@@##.         ...',
+        '...       +##@@##+.+++.+##@@##@.           .',
+        '..         @##.         +######             ',
+        '.          +@+           ##@#@.             ',
+        '.           #. ..++....+######+             ',
+        '             +.  .#+ +#@@###@#.             ',
+        '             .       . +@#####              ',
+        '             .         .#####@.             ',
+        '              .        +##@@##              ',
+        '              .       .+@###@+              ',
+        '               .       .###@#               ',
+        '              +        .###+                ',
+        '.            #@        .###+.               ',
+        '.          .####.    ..#@#@@@##             ',
+        '.     .++##@@##@@#+...+##@@###@+            ',
+        '++###@@@@@@######@@@@@@#@@@######+.        .',
     ]
 
 
@@ -99,12 +100,13 @@ def esc(s):
 
 
 def generate_svg(stats, ascii_art):
-    W, H = 920, 510
+    W, H = 1100, 520
+    DIV = 540   # vertical divider x position
 
     ascii_lines_svg = ""
     for i, line in enumerate(ascii_art):
-        y = 130 + i * 20
-        ascii_lines_svg += f'<text x="28" y="{y}" class="ascii">{esc(line)}</text>\n    '
+        y = 132 + i * 18
+        ascii_lines_svg += f'<text x="18" y="{y}" class="ascii">{esc(line)}</text>\n    '
 
     stat_rows = [
         ("Handle",       stats["handle"]),
@@ -122,9 +124,9 @@ def generate_svg(stats, ascii_art):
     for i, (label, value) in enumerate(stat_rows):
         y = 158 + i * 32
         stat_elements += f"""
-    <line x1="445" y1="{y - 15}" x2="{W - 20}" y2="{y - 15}" class="divider"/>
-    <text x="450" y="{y}" class="label">{esc(label)}</text>
-    <text x="630" y="{y}" class="value">{esc(str(value)[:30])}</text>"""
+    <line x1="{DIV+10}" y1="{y - 15}" x2="{W - 20}" y2="{y - 15}" class="divider"/>
+    <text x="{DIV+15}" y="{y}" class="label">{esc(label)}</text>
+    <text x="{DIV+170}" y="{y}" class="value">{esc(str(value)[:32])}</text>"""
 
     cursor_y = 158 + len(stat_rows) * 32
     timestamp = datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC")
@@ -135,7 +137,7 @@ def generate_svg(stats, ascii_art):
       .bg    {{ fill: #060c06; }}
       .frame {{ fill: none; stroke: #00ff41; stroke-width: 1.5; opacity: 0.6; }}
       .title {{ font-family: 'Courier New', monospace; font-size: 13px; fill: #00ff41; letter-spacing: 4px; font-weight: bold; }}
-      .ascii {{ font-family: 'Courier New', monospace; font-size: 13.5px; fill: #00cc33; white-space: pre; }}
+      .ascii {{ font-family: 'Courier New', monospace; font-size: 10px; fill: #00cc33; white-space: pre; }}
       .label {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #00aa22; letter-spacing: 1px; }}
       .value {{ font-family: 'Courier New', monospace; font-size: 12px; fill: #00ff88; }}
       .header{{ font-family: 'Courier New', monospace; font-size: 11px; fill: #00ff4160; letter-spacing: 2px; }}
@@ -160,13 +162,13 @@ def generate_svg(stats, ascii_art):
   <text x="20" y="66" class="header">$ ./profile-scan --target {esc(USERNAME)} --live</text>
   <text x="20" y="84" class="header">SCANNING... STATUS: ONLINE | {esc(timestamp)}</text>
   <line x1="8" y1="94" x2="{W - 8}" y2="94" class="sep"/>
-  <line x1="435" y1="94" x2="435" y2="{H - 8}" class="sep"/>
-  <text x="28" y="114" class="label">VISUAL.MAP</text>
+  <line x1="{DIV}" y1="94" x2="{DIV}" y2="{H - 8}" class="sep"/>
+  <text x="18" y="114" class="label">VISUAL.MAP</text>
   {ascii_lines_svg}
-  <text x="450" y="114" class="label">SYSTEM.INFO</text>
-  <text x="630" y="114" class="label">SUBJECT</text>
+  <text x="{DIV+15}" y="114" class="label">SYSTEM.INFO</text>
+  <text x="{DIV+170}" y="114" class="label">SUBJECT</text>
   {stat_elements}
-  <rect x="450" y="{cursor_y + 4}" width="9" height="14" class="cursor"/>
+  <rect x="{DIV+15}" y="{cursor_y + 4}" width="9" height="14" class="cursor"/>
   <line x1="8" y1="{H - 28}" x2="{W - 8}" y2="{H - 28}" class="sep"/>
   <text x="20" y="{H - 12}" class="header">[ ACCESS GRANTED ] &#x2588; SECURE CONNECTION ESTABLISHED</text>
   <text x="{W - 20}" y="{H - 12}" class="header" text-anchor="end">AUTO-REFRESH: DAILY</text>
