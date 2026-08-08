@@ -5,7 +5,7 @@
 </h1>
 
 <div align="center">
-  <img src="profile-scan.svg?v=3" alt="Profile Scan" width="100%" />
+  <img src="profile-scan.svg?v=4" alt="Profile Scan" width="100%" />
 </div>
 
 I'm a driven individual focused on building AI-powered products and turning ideas into reality.Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.Also curious about design and constantly exploring ways to create better user experiences.Always learning, building, and moving forward.
