@@ -60,7 +60,7 @@ I'm a driven individual focused on building AI-powered products and turning idea
 </div>
 
 <div align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sohansarkar07&theme=transparent&utcOffset=5.5" alt="Productive Time" /> <img src="http://github-profile-summary-cards.vercel.app/api/cards/stats?username=sohansarkar07&theme=transparent" alt="Stats" />
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=sohansarkar07&theme=transparent&utcOffset=5.5" alt="Productive Time" />
 </div>
 
 <div align="center">
