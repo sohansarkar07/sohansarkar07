@@ -1,7 +1,7 @@
 <img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=sohansarkar07.sohansarkar07" />
 
 <h1 align="center">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Sohan+Sarkar!;" />
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+ðŸ‘‹;+I'm+Sohan+Sarkar!;" />
 </h1>
 
 I'm a driven individual focused on building AI-powered products and turning ideas into reality.Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.Also curious about design and constantly exploring ways to create better user experiences.Always learning, building, and moving forward.
@@ -10,7 +10,7 @@ I'm a driven individual focused on building AI-powered products and turning idea
   <img src="https://github-profile-trophy.vercel.app/?username=sohansarkar07&theme=onestar&no-bg=true&no-frame=true&column=7" alt="trophies" />
 </p>
 
-## 🔗 Connect with Me
+## ðŸ”— Connect with Me
 
 <div align="center">
 
@@ -32,7 +32,7 @@ I'm a driven individual focused on building AI-powered products and turning idea
 
 </div>
 
-## 🛠 Languages & Tools
+## ðŸ›  Languages & Tools
 
 <p align="center">
   <a href="https://skillicons.dev">
