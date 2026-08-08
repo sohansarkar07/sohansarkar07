@@ -7,7 +7,7 @@
 I'm a driven individual focused on building AI-powered products and turning ideas into reality.Interested in Web3 and Blockchain, with a passion for shipping meaningful products in the Web3 space.Also curious about design and constantly exploring ways to create better user experiences.Always learning, building, and moving forward.
 
 <p align="center">
-  <img src="https://gh-trophy.cdnsoft.net/?username=sohansarkar07&theme=flat&no-bg=true&v=1.4" alt="trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=sohansarkar07&theme=onestar&no-bg=true&no-frame=true&column=7" alt="trophies" />
 </p>
 
 ## 🔗 Connect with Me
@@ -52,7 +52,7 @@ I'm a driven individual focused on building AI-powered products and turning idea
 ## GitHub Dashboard
 
 <div align="center">
-  <img src="https://github-contribution-stats.vercel.app/api/?username=sohansarkar07&theme=light" alt="Contribution Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=sohansarkar07&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Contribution Stats" />
 </div>
 
 <div align="center">
