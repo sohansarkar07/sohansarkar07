@@ -100,7 +100,7 @@ def esc(s):
 
 
 def generate_svg(stats, ascii_art):
-    W, H = 1100, 520
+    W, H = 1100, 560
     DIV = 540   # vertical divider x position
 
     ascii_lines_svg = ""
