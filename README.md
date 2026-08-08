@@ -52,7 +52,7 @@ I'm a driven individual focused on building AI-powered products and turning idea
 ## GitHub Dashboard
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=sohansarkar07&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Contribution Stats" />
+  <img src="https://gh-readme-stats.vercel.app/api?username=sohansarkar07&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="Contribution Stats" />
 </div>
 
 <div align="center">
