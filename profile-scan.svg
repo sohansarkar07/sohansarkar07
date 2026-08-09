@@ -27,7 +27,7 @@
   <circle cx="68" cy="28" r="5" fill="#27c93f" opacity="0.9"/>
   <text x="390" y="33" class="title" text-anchor="middle">PROFILE_SCAN.EXE</text>
   <text x="20" y="66" class="header">$ ./profile-scan --target sohansarkar07 --live</text>
-  <text x="20" y="84" class="header">SCANNING... STATUS: ONLINE | 2026-08-08 18:40 UTC</text>
+  <text x="20" y="84" class="header">SCANNING... STATUS: ONLINE | 2026-08-09 18:43 UTC</text>
   <line x1="8" y1="94" x2="772" y2="94" class="sep"/>
   <line x1="340" y1="94" x2="340" y2="552" class="sep"/>
   <text x="18" y="114" class="label">VISUAL.MAP</text>
@@ -68,7 +68,7 @@
     <text x="510" y="222" class="value">Building AI powered products </text>
     <line x1="350" y1="239" x2="760" y2="239" class="divider"/>
     <text x="355" y="254" class="label">Languages</text>
-    <text x="510" y="254" class="value">TypeScript, JavaScript, HTML, Py</text>
+    <text x="510" y="254" class="value">Python, TypeScript, JavaScript, </text>
     <line x1="350" y1="271" x2="760" y2="271" class="divider"/>
     <text x="355" y="286" class="label">Repositories</text>
     <text x="510" y="286" class="value">28</text>
